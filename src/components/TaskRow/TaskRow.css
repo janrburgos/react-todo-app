@@ -1,0 +1,32 @@
+.TaskRow td {
+  position: relative;
+}
+
+.TaskRow button {
+  display: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+}
+
+.TaskRow:hover button {
+  display: inline-block;
+}
+
+.TaskRow button:hover {
+  opacity: 0.5;
+}
+
+.TaskRow .check-button {
+  background: limegreen;
+  left: 10px;
+}
+
+.TaskRow .bin-button {
+  background: red;
+  right: 10px;
+}

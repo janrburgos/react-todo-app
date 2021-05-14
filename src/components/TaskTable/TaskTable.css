@@ -1,0 +1,34 @@
+.TaskTable {
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 2px silver;
+  overflow: hidden;
+  font-size: 1.2rem;
+  border-collapse: collapse;
+  background-color: #eee;
+}
+
+.TaskTable > div {
+  margin: 20px 0;
+}
+
+.TaskTable span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.TaskTable th {
+  background: cornflowerblue;
+  color: white;
+}
+
+.TaskTable th,
+.TaskTable td {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.TaskTable tr:nth-child(odd) {
+  background-color: #ccc;
+}
